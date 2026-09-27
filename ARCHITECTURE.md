@@ -23,7 +23,7 @@ The 20 legacy GPIOs are never multiplexed. They remain 1:1 from the original RP2
 The IO-board 6P connector is carried on dedicated FFC lines TB1..TB6 and therefore does not consume any of the 20 legacy keyboard GPIOs. This is the key architectural change from Rev.I.
 
 ### FFC
-40P is intentionally oversized. It is cheaper and safer than introducing GPIO sharing or jumper matrices. Four dedicated GND pins are included.
+24P is the final host interconnect. It carries the 20 legacy GPIOs plus 3V3, GND, VSYS and USB_VBUS. TB1..TB6 remain dedicated BLE-core expansion lines and are not part of the RP2040-Zero host FFC.
 
 
 ## Rev.Q mechanical correction
