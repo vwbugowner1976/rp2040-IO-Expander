@@ -1,0 +1,2 @@
+Source: https://github.com/is-watering/isw-kbd-lib/blob/main/footprints/isw-kbd.pretty/RP2040-Zero-THT.kicad_mod
+Used as mechanical/pad master for Rev.W.
