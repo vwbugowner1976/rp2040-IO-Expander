@@ -19,7 +19,7 @@ The pad geometry preserves the characteristic RP2040-Zero THT/castellation arran
 - RP2040, flash, regulator and LED are intentionally removed.
 - USB-C remains on the original-side area.
 - BOOT and RESET remain on the same surface.
-- 24P Hirose FH34SRJ-24S-0.5SH(50) footprint is on B.Cu.
+- 24P Hirose FH34SRJ-24S-0.5SH(50) footprint is on B.Cu; the mating BLE CORE uses the matching 24P host connector.
 - FFC is inside the 18 × 23.5 mm outline.
 - Separate BLE core target: Raytac MDBT50Q-1MV2.
 
